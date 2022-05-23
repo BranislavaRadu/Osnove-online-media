@@ -1,0 +1,143 @@
+
+	#druga{
+		background-image: url('C:/Users/Think/Desktop/Osnove online media/img/slika13.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	}
+
+.card-text p {
+	font-size:10px;
+}
+
+
+.card {
+	position:relative;
+	width:280px;
+	height:250px;
+	border:1px solid black;
+	border-radius:15px;
+	overflow:hidden;
+	display:inline-block;
+	
+}
+.card-img {
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+}
+.card-text {
+	position:absolute;
+	top:100%;
+	width:100%;
+	border-radius:15px;
+	padding: 30% 0;
+	color:white;
+	background-color:black;
+	font-size:13px;
+	text-align:center;
+		border:1px solid black; 
+		
+	
+}
+.card:hover .card-text {
+	top:0px;
+	 
+	transition:2s;
+	
+}
+
+.matrica {
+	margin-top:100px;
+	display:grid;
+	grid-template:"a b c"
+	              "d e f";
+				
+				padding:50px;
+				
+				
+				  
+				  
+				 
+}
+ #proizvod-a{
+	 grid-area:a;
+ }
+ #proizvod-b {
+	 grid-area:b;
+ } 
+ #proizvod-c {
+	 grid-area:c;
+ }
+  #proizvod-d {
+	 grid-area:d;
+ }
+  #proizvod-e {
+	 grid-area:e;
+ }
+  #proizvod-f {
+	 grid-area:f;
+ }
+
+ 
+
+	
+	
+.card-text  h2 {
+		font-style:bold;
+	
+	}
+
+
+.formstyle
+{
+width: 400px;
+height: 430px;
+margin: 20px auto;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+
+margin-left:1000px;
+margin-bottom:100px;
+
+}
+
+
+
+input:hover
+{
+background-color: black;
+color:white;
+}
+	
+
+
+.btn {
+width: 50px;
+height: 50px;
+font-size: 25px;
+margin: 2px;
+
+background-color: black;
+color: white;
+
+}
+
+/* It is used to display the numbers, operations and results. */
+.text{
+width: 223px;
+margin: 5px;
+font-size: 25px;
+padding: 5px;
+background-color:white;
+
+} 
+#naslov-torte{
+	color:black;
+	font-size:40px;
+	text-align:center;
+	margin-top:100px;
+	background-color:white;
+	
+}

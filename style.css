@@ -1,0 +1,73 @@
+ #prva{
+	background-image: url('C:/Users/Think/Desktop/Osnove online media/img/slika4.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+#pocetna-naslov {
+	color:black;
+	margin-left:80px;
+	font-size:50px;
+	color:black;
+	background-color: #DC143C;
+	margin-top:200px;
+	padding:10px;
+}
+
+
+#menu {
+  
+  margin: 0;
+  width: 300px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+ button {
+    height: 50px;
+    width: 50px;
+	margin-top:650px;
+	background:red;
+	color:white;
+	border-radius:50%;
+	
+
+}
+
+button:hover
+ {
+	background:white;
+	color:black;
+}
+
+.tekst{
+	background-color:#22222250;
+	border:3px solid black;
+	font-size:23px;
+	padding:40px;
+	margin-bottom:200px;
+	 font-style: oblique;
+	 text-align:center;
+	 color:white;
+	 
+}
+
+
+ a {
+  display:block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ a.active {
+  background-color: #DC143C;
+  color: white;
+}
+
+ a:hover:not(.active) {
+  background-color:#FF4040;
+  color: white;
+}

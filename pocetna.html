@@ -1,0 +1,249 @@
+
+<!doctype html>
+<html>
+
+<head>
+
+<title>Poslastičarnica Vremeplov</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style2.css">
+
+
+
+
+
+</head>
+
+
+<ul id="menu">
+  <li><a class="active" href="#pocetna">Početna</a></li>
+  <li><a href="#torte">Torte</a></li>
+  <li><a href="#kontakt">Kontakt</a></li>
+</ul>
+
+<body id="prva">
+<div class="page" id="pocetna">
+<div class="column">
+<h1 id="pocetna-naslov">Poslastičarnica Vremeplov</h1> <br>
+	
+<div class="tekst"> 
+	
+
+<p >Tradicija je kontinuitet - povezati danas ono što je bilo juče sa onim što će doći.</p> 
+<p>To je vizija,snaga i kvalitet da stvoriš nešto dobro u vremenu u kome živiš i koje dolazi.</p>
+
+</div>
+
+
+
+
+
+<button class="dugme-za-promenu-slike"  id="btn-1" >1</button>
+        <button class="dugme-za-promenu-slike" id="btn-2"> 2 </button>
+        <button class="dugme-za-promenu-slike" id="btn-3" >3</button>
+        <button class="dugme-za-promenu-slike" id="btn-4">4</button>
+</div>
+</div>
+</body>
+<body id="druga">
+
+<div class="page" id="torte">
+<div class="column"> 
+
+
+
+
+
+<div id="naslov-torte">
+ 
+    <p>TORTE</p>
+	</div>
+
+<div class="matrica">
+<div class="card" id="proizvod-a">
+<img class="card-img" src="C:\Users\Think\Desktop\Osnove online media\img\slika5.jpg">
+<div class="card-text">
+<h2 >Nežna torta</h2> <br>
+<p>Cena:450 RSD</p><br>
+<p>Blaga,lagana kremasta komadićima svežeg jagodičastog voća na bazi slatke pavlake, među šuškavim koricama sa lešnikom. Sve preliveno sosom od malina koji je naš proizvod.</p>
+</div>
+</div> 
+
+<div class="card" id="proizvod-b">
+<img class="card-img" src="C:\Users\Think\Desktop\Osnove online media\img\slika6.jpg">
+<div class="card-text">
+<h2 >Krem posna torta</h2> <br>
+<p>Cena:490 RSD</p><br>
+<p>Neobično bogat, čak raskošan ukus za posnu poslasticu: korica od posnog keksa i margarina, a nadev od posne čokolade visokog sadržaja kakao masnoće(55%), meda i biljne slatke pavlake.
+ Ukrašena kandiranim brusnicama.</p>
+</div>
+</div>
+
+<div class="card" id="proizvod-c">
+<img class="card-img" src="C:\Users\Think\Desktop\Osnove online media\img\slika7.jpg">
+<div class="card-text">
+<h2 >Torta Velika vojvotkinja</h2> <br>
+<p>Cena: 470 RSD</p><br>
+<p>Veoma stari recept, pripremljen na austrijskom dvoru za jedan rođendan princeze Sisi.
+ Neobična kombinacija koja osvežava: kajsije i sitni sir u nadevu između laganih biskvitnih korica sa bademom.</p>
+
+</div>
+</div>
+<div class="card" id="proizvod-d">
+<img class="card-img" src="C:\Users\Think\Desktop\Osnove online media\img\slika8.jpg">
+<div class="card-text">
+
+<h2 >Vremeplov torta</h2> <br>
+<p>Cena: 580 RSD</p><br>
+<p> Naša autentična torta. Marcipan, lešnik i crna čokolada su osnovni sastojci koji ovu tortu čine obilnom u ukusu i količini.
+ Korice od marcipana. Čokoladni mus sa krokantom od lešnika(sitno izlomljene pločice karamelizovanog šećera sa lešnikom).</p>
+
+</div>
+</div>
+<div class="card" id="proizvod-e">
+<img class="card-img" src="C:\Users\Think\Desktop\Osnove online media\img\slika9.jpg">
+<div class="card-text">
+<h2 >Reform torta</h2> <br>
+<p>Cena: 450  RSD</p><br>
+<p>Korice su bogato zacinjene orasima, krem je od cokolade, jaja i putera, a zajedno čine neverovatan sklad, nezaboravan.</p>
+
+
+</div>
+</div>
+<div class="card" id="proizvod-f">
+<img class="card-img" src="C:\Users\Think\Desktop\Osnove online media\img\slika10.jpg">
+<div class="card-text">
+<h2 >Luksuzna torta</h2> <br>
+<p>Cena: 520  RSD</p><br>
+<p>Neobična poslastica za ljubitelje bele čokolade.
+ To je zapravo pečeni cheese cake, sa koricom od keksa, pečenog lešnika i cimeta i obimnim nadevom od jaja, pavlake i bele čokolade. </p>
+</div>
+
+</div>
+
+</div>
+<div class= "formstyle">
+ <form name = "output">
+ <input class= "text" name = "text">
+ </form>
+ <center>
+ <table >
+ <tr> 
+	<td> <input class = "btn" type = "button" value = "C" onclick = "output.text.value = ' ' " > </td>
+	<td> <input  class = "btn" type = "button" value = "/" onclick = "insert('/')" > </td>
+	<td> <input class = "btn" type = "button" value = "x" onclick = "insert('*')" > </td>
+	</tr>
+	
+	 <tr> 
+	<td> <input class = "btn" type = "button" value = "7" onclick = "insert(7)" > </td>
+	<td> <input class = "btn" type = "button" value = "8" onclick = "insert(8)" > </td>
+	<td> <input class = "btn" type = "button" value = "9" onclick = "insert(9)" > </td>
+	<td> <input class = "btn" type = "button" value = "-" onclick = "insert('-')" > </td>
+	</tr>
+	
+	 <tr> 
+	<td> <input class = "btn" type = "button" value = "4" onclick = "insert(4)" > </td>
+	<td> <input class = "btn" type = "button" value = "5" onclick = "insert(5)" > </td>
+	<td> <input class = "btn" type = "button" value = "6" onclick = "insert(6)" > </td>
+	<td> <input class = "btn" type = "button" value = "+" onclick = "insert('+')" > </td>
+	</tr>
+	
+	 <tr> 
+	<td> <input class = "btn" type = "button" value = "1" onclick = "insert(1)" > </td>
+	<td> <input class = "btn" type = "button" value = "2" onclick = "insert(2)" > </td>
+	<td> <input class = "btn" type = "button" value = "3" onclick = "insert(3)" > </td>
+	<td rowspan = 5> <input class = "btn" style = "height: 110px" type = "button" value = "=" onclick = "equal()"> </td>
+	</tr>
+	<tr>
+	<td colspan = 2> <input class = "btn" style = "width: 106px" type = "button" value = "0" onclick = "insert(0)" > </td>
+	<td> <input class = "btn" type = "button" value = "." onclick = "insert('.')"> </td>
+	</tr>
+	</table>
+	</center>
+ </div></div>
+</div>
+</body>
+<body id="treca">
+<div class="page" id="kontakt">
+<div class="colum">
+
+
+
+    <div class="container">
+	
+       
+		
+		<div class="menjanje-boja">
+		
+	<button id="btnRed" > Crvena </button>
+	<button id="btnBlue"> Plava </button>
+	<button id="btnGreen"> Zelena</button>
+
+	</div>
+	
+        <form action="">
+            <div class="form-item">
+                <input type="text" name="name" id="name" placeholder="Ime">
+                <p class="error error-name"></p>
+            </div>
+            <div class="form-item">
+                <input type="text" name="last-name" id="last-name" placeholder="Prezime">
+                <p class="error error-last-name"></p>
+            </div>
+            <div class="form-item">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <p class="error error-email"></p>
+            </div>
+			 <div class="form-item">
+                <input type="password" name="password" id="password" placeholder="Lozinka">
+                <p class="error error-password"></p>
+            </div>
+			
+          <label for="city">Grad:</label>
+		  <input type="text" name="city" id="city" list="cities">
+		  <datalist id="cities">
+		  <option value="Zrenjanin">
+		  <option value="Beograd">
+		  <option value="Novi Sad">
+		  <option value="Pančevo">
+		</datalist>
+		
+		  
+		   <div class="form-item">
+                <input type="text" name="adress" id="adress" placeholder="Adresa">
+                <p class="error error-adress"></p>
+            </div>
+			
+			
+            <div class="form-item">
+                <input type="tel" name="phone" id="phone" placeholder="Telefon">
+                <p class="error error-phone"></p>
+            </div>
+			<label for="torte">Šta želite da poručite?</label> <br>
+			<label for="torte">Torte</label>
+			<input type="checkbox" name="torta" id="torta" value="1"> <br>
+			<label for="kolaci">Kolače</label>
+			<input type="checkbox" name="kolac" id="kolac" value="2"> <br>
+            <div class="form-item">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Poruka"></textarea>
+                <p class="error error-message"></p>
+            </div>
+            <p class="error error-main"></p>
+        </form>
+        <div class="submit-btn">
+            <button id="submit" onclick="myFunction()">Pošalji</button>
+        </div>
+    </div>
+	</div>
+	</div>
+	
+   
+  
+<script src="pocetna.js"></script>
+<script src="kalkulator.js"></script>
+<script src="forma.js"></script>
+
+</body>
+</html>
